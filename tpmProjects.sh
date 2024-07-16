@@ -15,8 +15,6 @@ json=$(jq -n \
 #Remove spaces to match php output
 request_body=$(echo "$json" | tr -d ' \n\t')
 
-echo $request_body
-
 #HMAC ($hash)
 timestamp=$(date +%s)
 unhashed="${REQUESTURI}${timestamp}${request_body}"
