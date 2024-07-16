@@ -1,7 +1,7 @@
 ##Params
 BASEURL='https://tpm.mydomain.com/index.php/'
 REQUESTURI='api/v5/projects.json'
-PUBKEY='YOUR PUBLIC KEY
+PUBKEY='YOUR PUBLIC KEY'
 PRIVKEY='YOUR PRIVATE KEY'
 
 PROJECTNAME='name'
